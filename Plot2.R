@@ -13,7 +13,7 @@ data$Time <- strptime(data$Time, format = "%d/%m/%Y %H:%M:%S")
 
 #Subset the data for observation of 01 and 02 Fe 2007
 
-dataUse <- subset(data, data$Date == as.Date("2007-02-01") | data$Date == as.Date("2007-02-02"))
+data <- subset(data, data$Date == as.Date("2007-02-01") | data$Date == as.Date("2007-02-02"))
 
 #open plot2.png
 
