@@ -24,4 +24,4 @@ hist(dataUse$Global_active_power, col='red',
      xlab = 'Global Active Power (kilowatts)',
      main = 'Global Active Power')
 #Close PNG file
-dev.off()
+dev.off() 
